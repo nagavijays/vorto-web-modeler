@@ -4,19 +4,21 @@ var device_catlog = [
    {device_category:1, device:"Battery", image:"battery.png",inputs:1,outputs:1},
    {device_category:1, device:"Bulb", image:"bulb.png",inputs:1,outputs:1},
    {device_category:1, device:"Cloud", image:"cloud.png",inputs:1,outputs:1},
-   {device_category:1, device:"CPU", image:"cpu.png",inputs:1,outputs:1},
+   {device_category:2, device:"CPU", image:"cpu.png",inputs:1,outputs:1},
    {device_category:1, device:"Gyroscope", image:"gyroscope.png",inputs:1,outputs:1},
-   {device_category:1, device:"Humidity Sensor", image:"humidity_sensor.png",inputs:1,outputs:1},
-   {device_category:1, device:"Monitor", image:"monitor.png",inputs:1,outputs:1},
+   {device_category:1, device:"Humidity Sensor", image:"humidity_sensor.png",inputs:0,outputs:1},
+   {device_category:2, device:"Monitor", image:"monitor.png",inputs:1,outputs:1},
    {device_category:1, device:"Smartphone", image:"smartphone.png",inputs:1,outputs:1},
-   {device_category:2, device:"Router", image:"router.png",inputs:1,outputs:1},
-   {device_category:2, device:"Temperature Sensor", image:"TemperatureSensor.png",inputs:1,outputs:1},
-   {device_category:2, device:"Thired Party Server", image:"thiredpartyServer.png",inputs:1,outputs:1},
+   {device_category:2, device:"Airconditioner", image:"air-conditioner.png",inputs:1,outputs:0},
+   {device_category:1, device:"Temperature Sensor", image:"TemperatureSensor.png",inputs:0,outputs:1},
+   {device_category:3, device:"Router", image:"router.png",inputs:1,outputs:1},
+   {device_category:3, device:"Third Party Server", image:"thiredpartyServer.png",inputs:1,outputs:1},
 ];
 
 var device_category_arr = [
-   {device_category:1, category_name:"Measuring equipments"},
-   {device_category:2, category_name:"Lighting Equipment"}
+   {device_category:1, category_name:"Sensors"},
+   {device_category:2, category_name:"Devices & Appliances"},
+   {device_category:3, category_name:"Network Equipment"}
 ];
 
 var inputs_ports =[
